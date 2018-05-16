@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="comaliwo.gitgu.byeongmu.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="92dp"
+        android:id="@+id/toggleButton" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/toggleButton"
+        android:layout_toRightOf="@+id/toggleButton"
+        android:layout_toEndOf="@+id/toggleButton"
+        android:id="@+id/toggleButton2" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleButton2"
+        android:layout_toRightOf="@+id/toggleButton2"
+        android:layout_toEndOf="@+id/toggleButton2"
+        android:id="@+id/toggleButton3" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleButton3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/toggleButton4" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton"
+        android:layout_toLeftOf="@+id/toggleButton2"
+        android:layout_toStartOf="@+id/toggleButton2"
+        android:id="@+id/toggleButton5" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton2"
+        android:layout_toRightOf="@+id/toggleButton5"
+        android:layout_toEndOf="@+id/toggleButton5"
+        android:id="@+id/toggleButton6" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton3"
+        android:layout_toRightOf="@+id/toggleButton6"
+        android:layout_toEndOf="@+id/toggleButton6"
+        android:id="@+id/toggleButton7" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/toggleButton8" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton5"
+        android:layout_toLeftOf="@+id/toggleButton6"
+        android:layout_toStartOf="@+id/toggleButton6"
+        android:id="@+id/toggleButton9" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton5"
+        android:layout_toRightOf="@+id/toggleButton9"
+        android:layout_toEndOf="@+id/toggleButton9"
+        android:id="@+id/toggleButton10" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton7"
+        android:layout_toRightOf="@+id/toggleButton10"
+        android:layout_toEndOf="@+id/toggleButton10"
+        android:id="@+id/toggleButton11" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton8"
+        android:layout_toRightOf="@+id/toggleButton11"
+        android:layout_toEndOf="@+id/toggleButton11"
+        android:id="@+id/toggleButton12" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toggleButton13" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton10"
+        android:layout_toRightOf="@+id/toggleButton13"
+        android:layout_toEndOf="@+id/toggleButton13"
+        android:id="@+id/toggleButton14" />
+
+
+</RelativeLayout>
